@@ -1,0 +1,72 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+    background-color: lightgray;
+}
+
+.header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.nav p {
+    margin: auto 5rem;
+}
+
+.nav p a{
+    color: darkgray;
+    font-size: 2rem;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    height:30rem;
+    background-image: url(./images/excavator-stretch-21288910.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.mission-content {
+    font-size: 2rem;
+    width: 100%;
+    margin: auto;
+    background-color: dimgray;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.mission-content h2 {
+    opacity: 1;
+}
+
+#equipment h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.equipment-gallery {
+    display: flex;
+    height: 30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipment-gallery img {
+    height: 20rem;
+    width: 30rem;
+    object-fit: cover;
+    margin: 1rem 2rem;
+}
+
+.equipment-gallery h3 {
+    text-align: center;
+    margin: auto;
+}
